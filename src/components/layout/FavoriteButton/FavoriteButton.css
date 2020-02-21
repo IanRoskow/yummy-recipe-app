@@ -1,0 +1,27 @@
+.favorite-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  z-index: 10;
+  border: none;
+  padding: 0;
+  transition: 250ms linear background-color;
+  cursor: pointer;
+}
+
+.favorite-button i {
+  color: white;
+  transition: 250ms linear color;
+}
+
+.favorite-button.select i {
+  color: burlywood !important;
+}
+
+.favorite-button:hover {
+  background-color: darkgray;
+}

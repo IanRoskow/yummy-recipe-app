@@ -1,0 +1,17 @@
+.favorite-filter {
+  border-radius: 15px;
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.favorite-filter.selected {
+  color: burlywood;
+}
+
+.favorite-filter:hover {
+  background-color: darkgrey;
+}
