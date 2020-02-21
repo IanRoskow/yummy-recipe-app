@@ -1,16 +1,16 @@
 export const getRecipes = async () => {
-  //   const response = await fetch(
-  //     'https://yummly2.p.rapidapi.com/feeds/list?tag=list.recipe.seasonal&limit=18&start=0',
-  //     {
-  //       method: 'GET',
-  //       headers: {
-  //         'x-rapidapi-host': 'yummly2.p.rapidapi.com',
-  //         'x-rapidapi-key': '0dccc9baa3msh43a7da6ec957a6ap101f0ajsn519fcd31e245'
-  //       }
+  // const response = await fetch(
+  //   'https://yummly2.p.rapidapi.com/feeds/list?tag=list.recipe.seasonal&limit=18&start=0',
+  //   {
+  //     method: 'GET',
+  //     headers: {
+  //       'x-rapidapi-host': 'yummly2.p.rapidapi.com',
+  //       'x-rapidapi-key': process.env.REACT_APP_API_KEY
   //     }
-  //   );
-  //   const json = await response.json();
-  //   return json.feed;
+  //   }
+  // );
+  // const json = await response.json();
+  // return json.feed;
   return DummyData;
 };
 
